@@ -1,0 +1,269 @@
+* {
+  margin: 0px;
+  font-family: inter;
+}
+/* -----------------Menu Superior-------------------- */
+#menu-superior {
+  background-image: url(/img/fundo-menusuperior.svg);
+  color: aliceblue;
+
+  height: 560px;
+  gap: 0px;
+  opacity: 0px;
+}
+#logo {
+  margin-top: 50px;
+  margin-left: 75px;
+  width: 125px;
+  height: 62px;
+  top: 52px;
+  left: 56px;
+  gap: 0px;
+  opacity: 0px;
+}
+#Titulo-menusuperior {
+  margin-top: 50px;
+  margin-left: 172px;
+  width: 536px;
+  height: 102px;
+  top: 185px;
+  left: 172px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 51.4px;
+  text-align: left;
+}
+#Texto-menusuperior {
+  margin-top: 50px;
+  margin-left: 172px;
+  width: 536px;
+  height: 90px;
+  top: 319px;
+  left: 172px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+/* -------------Menu Informacional--------------------*/
+#menu-informacional {
+  background: #eaece5;
+
+  height: 170px;
+  top: 560px;
+  gap: 0px;
+  opacity: 0px;
+  display: grid;
+  grid-auto-flow: column;
+}
+.icones {
+  margin: 70px 0px 50px 100px;
+}
+/* -------------Seção do Video--------------------*/
+#secao-video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+#video01 {
+  /* Mask group */
+
+  width: 534px;
+  height: 300px;
+  left: 174px;
+  top: 810px;
+  margin: 50px 0px 50px 100px;
+}
+#titulo-video {
+  /* Aprenda com especialistas e comece seu primeiro projeto */
+
+  width: 496px;
+  height: 96px;
+  left: 772px;
+  top: 827px;
+
+  /* H1 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  margin: 50px 25px 50px 0px;
+  /* or 48px */
+
+  /* Azul */
+  color: #247ba0;
+}
+
+#texto-video {
+  /* Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos. Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos. */
+
+  width: 496px;
+  height: 144px;
+  left: 772px;
+  top: 947px;
+  margin: 50px 25px 50px 0px;
+
+  /* Corpo pequeno */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #383838;
+}
+/*-------------------Sessão do Carrosel com os comentarios dos alunos------------------*/
+#carrossel {
+  background-color: #247ba0;
+  padding: 50px;
+}
+#titulo-carrossel {
+  /* Mais de 500 alunos já iniciaram seus estudos */
+  padding-bottom: 50px;
+
+  /* H1 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+  text-align: center;
+
+  /* Cinza claro */
+  color: #eaece5;
+}
+#cards {
+  display: grid;
+  grid-auto-flow: column;
+}
+.card {
+  margin-left: 50px;
+}
+#seta-esquerda {
+  display: none;
+}
+#Bruna {
+  display: none;
+}
+.seta {
+  margin-top: 40%;
+  cursor: pointer;
+}
+.seta:hover {
+  transform: translateX(-8px);
+  transition: 1s;
+}
+
+/*----------------------------- Seção do Formulario----------------- */
+#formulario {
+  text-align: center;
+  margin: 25px;
+}
+#texto-formulario {
+  font-size: 32px;
+  padding: 20px;
+  margin-bottom: 30px;
+  /* Comece agora mesmo e dê o próximo passo da sua carreira */
+
+  /* H1 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  color: #383838;
+}
+input {
+  /* Group 24 */
+
+  width: 413px;
+  height: 53px;
+  left: 531px;
+  top: 1935px;
+
+  /* Rectangle 16 */
+
+  left: 36.88%;
+  right: 34.44%;
+  top: 88.36%;
+  bottom: 9.22%;
+
+  /* Cinza claro */
+  background: #eaece5;
+  border-radius: 8px;
+
+  /* Telefone */
+
+  left: 38.19%;
+  right: 35.83%;
+  top: 89.09%;
+  bottom: 9.91%;
+
+  /* Corpo pequeno */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 350%;
+
+  /* or 24px */
+
+  /* Cinza escuro */
+  color: #383838;
+  }
+button {
+  /* Group 17 */
+
+  width: 335px;
+  height: 53px;
+  left: 570px;
+  top: 2028px;
+
+  /* Rectangle 16 */
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Azul */
+  background: #247ba0;
+  border-radius: 8px;
+
+  /* Receber acesso grátis */
+
+  left: 4.78%;
+  right: 4.78%;
+  top: 26.69%;
+  bottom: 28.03%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1f99d2;
+  box-shadow: 0px 10px 10px #293338;
+}
